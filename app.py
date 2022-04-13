@@ -14,7 +14,7 @@ def hello():
 def read_file():
     f = open("/bourhan_data/file.txt")
     text = f.read()
-    return text
+    return type(text)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
